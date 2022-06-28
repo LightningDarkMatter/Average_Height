@@ -1,4 +1,4 @@
-student_heights = input("Enter the heights of the students: ").split()
+student_heights = input("Enter the heights of the students (cm): ").split()
 for n in range(0, len(student_heights)):
     student_heights[n] = int(student_heights[n])
 print(student_heights)
